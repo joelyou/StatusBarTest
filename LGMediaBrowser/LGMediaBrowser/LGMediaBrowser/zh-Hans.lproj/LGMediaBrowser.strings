@@ -1,0 +1,43 @@
+/* 
+  LGMediaBrowser.strings
+  LGMediaBrowser
+
+  Created by 龚杰洪 on 2018/5/30.
+  Copyright © 2018年 龚杰洪. All rights reserved.
+*/
+
+"Original" = "原图";
+"Beaytify" = "美颜";
+"Nostalgia" = "怀旧";
+"Grayscale" = "黑白";
+"Brightness" = "亮白";
+"Sketch" = "素描";
+"GaussianBlur" = "毛玻璃";
+"Vignette" = "晕影";
+"Emboss" = "浮雕";
+"Gamma" = "伽马";
+"Fisheye" = "鱼眼";
+"StretchDistortion" = "哈哈镜";
+"Cartoon" = "凹面镜";
+"ColorInvert" = "反色";
+
+"Unauthorized" = "未开启访问权限";
+"Open Settings" = "去设置";
+"Please Allow %@ Access\n1. Open Settings\n2. Tap Privacy \n3. Find %@ And Switch %@ On" = "请打开%@访问权限\n1. 打开系统设置\n 2. 点击隐私 \n 3. 找到%@然后打开%@开关";
+"Camera" = "摄像头";
+"Photos" = "照片";
+"Microphone" = "麦克风";
+"Location" = "定位";
+"Notifications" = "通知";
+"Albums" = "相簿";
+"Loading..." = "正在加载...";
+"Cancel" = "取消";
+"Back" = "返回";
+"Preview" = "预览";
+"Edit" = "编辑";
+"Original" = "原图";
+"Done" = "完成";
+"Select maximum of %d photos." = "最多只能选择%d张图片";
+"Can't select photos and videos at the same time." = "不能同时选择照片和视频";
+"iCloud synchronization." = "iCloud 同步中";
+"Authentication is required to reset your password." = "需要验证才能重置密码";

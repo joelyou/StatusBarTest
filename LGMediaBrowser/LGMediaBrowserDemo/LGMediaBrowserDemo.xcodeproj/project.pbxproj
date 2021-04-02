@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE0980EC2099B88A006B6D8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0980EB2099B88A006B6D8C /* AppDelegate.swift */; };
+		FE0980EE2099B88A006B6D8C /* MediaBrowserEntranceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0980ED2099B88A006B6D8C /* MediaBrowserEntranceController.swift */; };
+		FE0980F12099B88A006B6D8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE0980EF2099B88A006B6D8C /* Main.storyboard */; };
+		FE0980F32099B88B006B6D8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE0980F22099B88B006B6D8C /* Assets.xcassets */; };
+		FE0980F62099B88B006B6D8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE0980F42099B88B006B6D8C /* LaunchScreen.storyboard */; };
+		FE0980FE2099B953006B6D8C /* LGMediaBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE0980FD2099B953006B6D8C /* LGMediaBrowser.framework */; };
+		FE0980FF2099B953006B6D8C /* LGMediaBrowser.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FE0980FD2099B953006B6D8C /* LGMediaBrowser.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FE1DC4EF2109C65500C0EB23 /* FeatureListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1DC4EE2109C65500C0EB23 /* FeatureListViewController.swift */; };
+		FE4FBB242109C87100CA18E6 /* RemoteImageWallController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4FBB232109C87100CA18E6 /* RemoteImageWallController.swift */; };
+		FE4FBB262109C89400CA18E6 /* MediaPickerDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4FBB252109C89400CA18E6 /* MediaPickerDemoController.swift */; };
+		FE4FBB282109C8A900CA18E6 /* MediaCaptureDemoCon.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4FBB272109C8A900CA18E6 /* MediaCaptureDemoCon.swift */; };
+		FEAC89682199686F00E2FA34 /* IMG_0481.MOV in Resources */ = {isa = PBXBuildFile; fileRef = FEAC89662199686E00E2FA34 /* IMG_0481.MOV */; };
+		FEAC89692199686F00E2FA34 /* IMG_0481.HEIC in Resources */ = {isa = PBXBuildFile; fileRef = FEAC89672199686E00E2FA34 /* IMG_0481.HEIC */; };
+		FEF8976020A2A07C005E4880 /* LGWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF8975F20A2A07C005E4880 /* LGWebImage.framework */; };
+		FEF8976120A2A07C005E4880 /* LGWebImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FEF8975F20A2A07C005E4880 /* LGWebImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FEF8976420A2A0F0005E4880 /* LGHTTPRequest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF8976320A2A0F0005E4880 /* LGHTTPRequest.framework */; };
+		FEF8976520A2A0F0005E4880 /* LGHTTPRequest.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FEF8976320A2A0F0005E4880 /* LGHTTPRequest.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FEF8979220A300A1005E4880 /* Lenka - Trouble Is a Friend.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEF8979120A300A1005E4880 /* Lenka - Trouble Is a Friend.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FE0981002099B953006B6D8C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FE0980FF2099B953006B6D8C /* LGMediaBrowser.framework in Embed Frameworks */,
+				FEF8976120A2A07C005E4880 /* LGWebImage.framework in Embed Frameworks */,
+				FEF8976520A2A0F0005E4880 /* LGHTTPRequest.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FE0980E82099B88A006B6D8C /* LGMediaBrowserDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LGMediaBrowserDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE0980EB2099B88A006B6D8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE0980ED2099B88A006B6D8C /* MediaBrowserEntranceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaBrowserEntranceController.swift; sourceTree = "<group>"; };
+		FE0980F02099B88A006B6D8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE0980F22099B88B006B6D8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE0980F52099B88B006B6D8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE0980F72099B88B006B6D8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE0980FD2099B953006B6D8C /* LGMediaBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LGMediaBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE1DC4EE2109C65500C0EB23 /* FeatureListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureListViewController.swift; sourceTree = "<group>"; };
+		FE4FBB1F2109C69D00CA18E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		FE4FBB232109C87100CA18E6 /* RemoteImageWallController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImageWallController.swift; sourceTree = "<group>"; };
+		FE4FBB252109C89400CA18E6 /* MediaPickerDemoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaPickerDemoController.swift; sourceTree = "<group>"; };
+		FE4FBB272109C8A900CA18E6 /* MediaCaptureDemoCon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaCaptureDemoCon.swift; sourceTree = "<group>"; };
+		FEA01DF520C14B9400947D59 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		FEA01DF620C14B9400947D59 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		FEAC89662199686E00E2FA34 /* IMG_0481.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = IMG_0481.MOV; sourceTree = "<group>"; };
+		FEAC89672199686E00E2FA34 /* IMG_0481.HEIC */ = {isa = PBXFileReference; lastKnownFileType = file; path = IMG_0481.HEIC; sourceTree = "<group>"; };
+		FEF8975F20A2A07C005E4880 /* LGWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LGWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEF8976320A2A0F0005E4880 /* LGHTTPRequest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LGHTTPRequest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEF8979120A300A1005E4880 /* Lenka - Trouble Is a Friend.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Lenka - Trouble Is a Friend.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE0980E52099B88A006B6D8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE0980FE2099B953006B6D8C /* LGMediaBrowser.framework in Frameworks */,
+				FEF8976020A2A07C005E4880 /* LGWebImage.framework in Frameworks */,
+				FEF8976420A2A0F0005E4880 /* LGHTTPRequest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE0980DF2099B889006B6D8C = {
+			isa = PBXGroup;
+			children = (
+				FEF8976320A2A0F0005E4880 /* LGHTTPRequest.framework */,
+				FEF8975F20A2A07C005E4880 /* LGWebImage.framework */,
+				FE0980FD2099B953006B6D8C /* LGMediaBrowser.framework */,
+				FE0980EA2099B88A006B6D8C /* LGMediaBrowserDemo */,
+				FE0980E92099B88A006B6D8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE0980E92099B88A006B6D8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE0980E82099B88A006B6D8C /* LGMediaBrowserDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE0980EA2099B88A006B6D8C /* LGMediaBrowserDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FE0980EB2099B88A006B6D8C /* AppDelegate.swift */,
+				FE1DC4EE2109C65500C0EB23 /* FeatureListViewController.swift */,
+				FE0980ED2099B88A006B6D8C /* MediaBrowserEntranceController.swift */,
+				FE4FBB232109C87100CA18E6 /* RemoteImageWallController.swift */,
+				FE4FBB252109C89400CA18E6 /* MediaPickerDemoController.swift */,
+				FE4FBB272109C8A900CA18E6 /* MediaCaptureDemoCon.swift */,
+				FEF8979120A300A1005E4880 /* Lenka - Trouble Is a Friend.mp3 */,
+				FE0980EF2099B88A006B6D8C /* Main.storyboard */,
+				FEAC89672199686E00E2FA34 /* IMG_0481.HEIC */,
+				FEAC89662199686E00E2FA34 /* IMG_0481.MOV */,
+				FE0980F22099B88B006B6D8C /* Assets.xcassets */,
+				FE0980F42099B88B006B6D8C /* LaunchScreen.storyboard */,
+				FE0980F72099B88B006B6D8C /* Info.plist */,
+			);
+			path = LGMediaBrowserDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE0980E72099B88A006B6D8C /* LGMediaBrowserDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE0980FA2099B88B006B6D8C /* Build configuration list for PBXNativeTarget "LGMediaBrowserDemo" */;
+			buildPhases = (
+				FE0980E42099B88A006B6D8C /* Sources */,
+				FE0980E52099B88A006B6D8C /* Frameworks */,
+				FE0980E62099B88A006B6D8C /* Resources */,
+				FE0981002099B953006B6D8C /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LGMediaBrowserDemo;
+			productName = LGMediaBrowserDemo;
+			productReference = FE0980E82099B88A006B6D8C /* LGMediaBrowserDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE0980E02099B889006B6D8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "龚杰洪";
+				TargetAttributes = {
+					FE0980E72099B88A006B6D8C = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = FE0980E32099B889006B6D8C /* Build configuration list for PBXProject "LGMediaBrowserDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = FE0980DF2099B889006B6D8C;
+			productRefGroup = FE0980E92099B88A006B6D8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE0980E72099B88A006B6D8C /* LGMediaBrowserDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE0980E62099B88A006B6D8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE0980F62099B88B006B6D8C /* LaunchScreen.storyboard in Resources */,
+				FEAC89692199686F00E2FA34 /* IMG_0481.HEIC in Resources */,
+				FE0980F32099B88B006B6D8C /* Assets.xcassets in Resources */,
+				FE0980F12099B88A006B6D8C /* Main.storyboard in Resources */,
+				FEAC89682199686F00E2FA34 /* IMG_0481.MOV in Resources */,
+				FEF8979220A300A1005E4880 /* Lenka - Trouble Is a Friend.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE0980E42099B88A006B6D8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE4FBB242109C87100CA18E6 /* RemoteImageWallController.swift in Sources */,
+				FE0980EE2099B88A006B6D8C /* MediaBrowserEntranceController.swift in Sources */,
+				FE0980EC2099B88A006B6D8C /* AppDelegate.swift in Sources */,
+				FE4FBB282109C8A900CA18E6 /* MediaCaptureDemoCon.swift in Sources */,
+				FE1DC4EF2109C65500C0EB23 /* FeatureListViewController.swift in Sources */,
+				FE4FBB262109C89400CA18E6 /* MediaPickerDemoController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FE0980EF2099B88A006B6D8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE0980F02099B88A006B6D8C /* Base */,
+				FEA01DF520C14B9400947D59 /* zh-Hans */,
+				FE4FBB1F2109C69D00CA18E6 /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE0980F42099B88B006B6D8C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE0980F52099B88B006B6D8C /* Base */,
+				FEA01DF620C14B9400947D59 /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE0980F82099B88B006B6D8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE0980F92099B88B006B6D8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE0980FB2099B88B006B6D8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z8NV3LCA8Y;
+				INFOPLIST_FILE = LGMediaBrowserDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cxylg.LGMediaBrowserDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE0980FC2099B88B006B6D8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z8NV3LCA8Y;
+				INFOPLIST_FILE = LGMediaBrowserDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cxylg.LGMediaBrowserDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE0980E32099B889006B6D8C /* Build configuration list for PBXProject "LGMediaBrowserDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE0980F82099B88B006B6D8C /* Debug */,
+				FE0980F92099B88B006B6D8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE0980FA2099B88B006B6D8C /* Build configuration list for PBXNativeTarget "LGMediaBrowserDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE0980FB2099B88B006B6D8C /* Debug */,
+				FE0980FC2099B88B006B6D8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE0980E02099B889006B6D8C /* Project object */;
+}
